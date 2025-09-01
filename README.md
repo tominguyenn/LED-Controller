@@ -8,7 +8,7 @@ It features:
 
 ---
 
-## 🚀 Features
+## Features
 - Real-time brightness control with **PWM (LEDC)**.
 - LCD feedback showing:
   - Current LED color
@@ -20,7 +20,7 @@ It features:
 
 ---
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 - Arduino Nano ESP32
 - 3 × LEDs (Blue, Red, Green)
 - 3 × 220Ω resistors
@@ -31,18 +31,12 @@ It features:
 
 ---
 
-## 🔌 Wiring
+## Wiring
 
 - **LCD**: SDA → D8, SCL → D9, VCC → 5V, GND → GND
 - **LEDs**: D2 (Blue), D3 (Red), D4 (Green) → through resistors → GND
 - **Button**: D5 to GND (with internal pull-up)
 - **Potentiometer**: middle pin → A0, sides → 3.3V and GND
-
----
-
-## 📜 Code
-The main program is inside `src/main.ino`.  
-It uses the ESP32's **LEDC PWM** API for smooth brightness control.
 
 ---
 
@@ -55,9 +49,4 @@ Coming soon (photos & video of the setup).
 - Wi-Fi control via web dashboard or mobile app
 - Save last used LED and brightness in flash memory
 - Remote telemetry and status display
-
----
-
-## 📄 License
-This project is licensed under the MIT License. Feel free to use and modify it.
 
