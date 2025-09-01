@@ -40,12 +40,12 @@ It features:
 
 ---
 
-## 🖼️ Demo
+## Demo
 Coming soon (photos & video of the setup).
 
 ---
 
-## 📌 Future Plans
+## Future Plans
 - Wi-Fi control via web dashboard or mobile app
 - Save last used LED and brightness in flash memory
 - Remote telemetry and status display
